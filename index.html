@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            height: 100vh;
+            background-image: url(pxfuel.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        form{
+            top: 35%;
+            left: 40%;
+            position: absolute
+        }
+        .doc{
+            background: fixed;
+            background-color: black;
+            padding: 50px 40px 50px 40px;
+            border-radius: 10px;
+        }
+        .cut{
+            background-color: red;
+            position: absolute ;
+        }
+        #name
+        {
+            color: rgb(245, 248, 250);
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid #fff;
+
+
+        }
+    h1{
+            text-align: center;
+            color: antiquewhite;
+        }
+        input{
+            padding: 10px;
+            color: black;
+        }
+        a:hover{
+            background-color:black;
+            
+        }
+        .cut{
+            width: 60%;
+            left: 20%;
+            padding: 8px;
+            border-radius: 10px;
+            color: darkred;
+        }
+        .forget{
+            margin-top: 10px;
+            color: antiquewhite;
+        }
+        .sign{
+            margin-top: 10px;
+           margin-left: 55px;
+        }
+        .mail
+        {
+            opacity: 0.8;
+        }
+        .span
+        {
+            color: #fff;
+            text-decoration: none;
+        }
+        .span:hover{
+            color: gray;
+            text-decoration: none;
+        }
+        button:hover{
+            color: firebrick;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="mail">
+            <div class="doc">
+                <h1>Login</h1>
+                <input type="text" placeholder="Username" id="name"><br>
+                <input type="password" placeholder="Password" id="name"><br>
+                <div class="forget">
+                    <a href=""><span class="span">Forgot Password?</span> </a><br>
+                </div>
+                <div class="sign">
+                    <button class="cut">Signup</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html> 
